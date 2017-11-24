@@ -46,6 +46,7 @@ public class User {
     public Character getSymbol() {
         return symbol;
     }
+
     public HashMap getAnswers() {
         return answers;
     }

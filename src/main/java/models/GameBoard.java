@@ -9,8 +9,8 @@ public class GameBoard extends HashMap {
     private int marksInLine;
 
     public GameBoard() {
-        this.size= this.setSize();
-         this.marksInLine= this.setMarksInLine(size);
+        this.size = this.setSize();
+        this.marksInLine = this.setMarksInLine(size);
 
         //Filling play board with indexes
         for (Integer i = 1; i <= size * size; i++)
@@ -19,8 +19,8 @@ public class GameBoard extends HashMap {
     }
 
     public Integer setSize() {
-         Scanner scanner = new Scanner(System.in);
-         int size = 0;
+        Scanner scanner = new Scanner(System.in);
+        int size = 0;
 
         System.out.println("<<< GAME: Set the size of the play board... >>>");
         System.out.println("<<< Note: The total number of fields on the board will be equal to the square of that number >>>");
@@ -71,6 +71,7 @@ public class GameBoard extends HashMap {
     public int getSize() {
         return size;
     }
+
     public int getMarksInLine() {
         return marksInLine;
     }
