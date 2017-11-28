@@ -8,5 +8,4 @@
 .idea/workspace.xml
 TicTacToe.iml
 target/
-src/main/resources/
-src/test/
+
