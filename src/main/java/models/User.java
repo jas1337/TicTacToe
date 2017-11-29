@@ -11,7 +11,7 @@ public class User {
     private HashMap answers = new HashMap();
 
 
-    private User(String name, Character symbol) {
+    public User(String name, Character symbol) {
         this.name = name;
         this.symbol = symbol;
     }

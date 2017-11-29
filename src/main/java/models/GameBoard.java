@@ -1,6 +1,5 @@
 package models;
 
-
 import java.util.*;
 
 public class GameBoard extends HashMap {
